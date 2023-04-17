@@ -13,10 +13,13 @@ function App() {
             <img src={img}></img>
           </a>
           <a className="name-logo">
-            <span>Menu</span><FontAwesomeIcon icon={faBars} />
+            <span >Menu</span><FontAwesomeIcon icon={faBars} />
           </a>
        </div>
       </header>
+      {/* <div className='headline'>
+        <p>Turning ideas into real life products is my calling</p>
+       </div> */}
     </div>
   );
 }

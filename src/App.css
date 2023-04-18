@@ -21,6 +21,21 @@ body{
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.headline{
+  font-family: Mark Pro,sans-serif;
+  color: #FFFFFF;
+  font-size: 70px;
+  font-weight: bolder;
+  text-align: center;
+  /* margin-top: 250px; */
+  text-align: left;
+  justify-content: center;
+  margin-top: 250px;
+  margin-left: 150px;
+  margin-right: 400px;
+}
+
 .Menu-Top{
   position: fixed;
   top: 5rem;
@@ -30,7 +45,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 30%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   background: rgba(42,43,56,.5);
@@ -39,9 +54,11 @@ body{
   border-radius: 1rem;
   height: 10px;
 }
-
+.row-menu{
+  justify-content: center;
+}
 .Menu-Top .name-logo span {
-  font-family: D-DIN Condensed,sans-serif;
+  font-family: sans-serif;
   color: #c4c4c4;
   margin-right: 10px;
 }
@@ -51,6 +68,23 @@ img{
   overflow: clip;
   height: 30px;
   width: 30px;
+}
+.projects{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 150px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
 }
 .App-link {
   color: #61dafb;

@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  color: #fff
 }
 
 body{
@@ -13,7 +13,7 @@ body{
 
 .App-header {
   background-color: #10101a;
-  min-height: 100vh;
+  min-height: 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
